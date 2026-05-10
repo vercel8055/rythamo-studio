@@ -35,7 +35,7 @@ export default function Home() {
       <section id="services" className="py-32">
         <div className="max-w-7xl mx-auto px-8 mb-16">
           <h2 className="text-5xl md:text-7xl font-heading font-semibold tracking-tighter">
-            Our <span className="text-accent italic">Expertise.</span>
+            What <span className="text-accent italic">we do.</span>
           </h2>
         </div>
         

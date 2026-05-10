@@ -17,8 +17,8 @@ export function Hero() {
             transition={{ duration: 1.2, ease: [0.19, 1, 0.22, 1] }}
           >
             <h1 className="text-7xl md:text-9xl font-heading font-semibold tracking-tighter leading-[0.85] mb-8">
-              Bespoke Digital <br /> 
-              <span className="text-accent italic">Architects.</span>
+              Building Premium <br /> 
+              <span className="text-accent italic">Digital Tech.</span>
             </h1>
           </motion.div>
           
@@ -29,8 +29,8 @@ export function Hero() {
             className="max-w-xl"
           >
             <p className="text-lg md:text-xl text-foreground/70 leading-relaxed mb-10">
-              Rythamo Studio is a boutique creative-technical collective.
-              We build production-grade interfaces for startups and businesses who value craft over templates.
+              Rythamo Studio is a specialized freelance developer duo. 
+              We build high-performance websites and mobile apps for Indian startups and businesses that need quality tech without the complexity.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -44,12 +44,12 @@ export function Hero() {
           <div className="space-y-2 border-l border-accent/20 pl-6">
             <span className="text-[10px] uppercase tracking-[0.2em] text-foreground/40 font-bold">The Team</span>
             <div className="flex flex-col">
-              <span className="text-2xl font-heading font-medium">Principal Architect</span>
-              <span className="text-sm text-foreground/50">Full-stack & System Engineering</span>
+              <span className="text-2xl font-heading font-medium">Full-stack Dev</span>
+              <span className="text-sm text-foreground/50">Core Tech & System Logic</span>
             </div>
             <div className="flex flex-col pt-2">
-              <span className="text-2xl font-heading font-medium">Creative Lead</span>
-              <span className="text-sm text-foreground/50">UI/UX & Interactive Design</span>
+              <span className="text-2xl font-heading font-medium">UI/UX Designer</span>
+              <span className="text-sm text-foreground/50">Visual Design & User Flow</span>
             </div>
           </div>
         </div>

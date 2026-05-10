@@ -7,16 +7,16 @@ import Link from "next/link";
 const projects = [
   {
     title: "Health Metro",
-    category: "Preventive Healthcare Platform",
-    description: "A comprehensive monolithic architecture for digital health tracking and doctor-patient registration.",
+    category: "Hospital Management System",
+    description: "A complete digital platform for clinics and hospitals to manage patient records and doctor schedules efficiently.",
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070", // Placeholder if I don't have an image
     link: "https://github.com/Rythamo8055/Health-Metro-Mono",
     tags: ["Next.js", "Supabase", "Node.js"]
   },
   {
     title: "Car App X",
-    category: "Immersive 3D Experience",
-    description: "A gorgeous 3D parallax Car Explorer Flutter App with video feeds and bookings tray.",
+    category: "Interactive 3D Experience",
+    description: "A high-end mobile application for car dealerships, featuring interactive 3D car models and easy booking features.",
     image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=2070",
     link: "https://github.com/Rythamo8055/car-app-x",
     tags: ["Flutter", "Dart", "3D Animation"]
@@ -30,10 +30,10 @@ export function ProjectGrid() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div className="max-w-2xl">
             <h2 className="text-5xl md:text-7xl font-heading font-semibold tracking-tighter mb-6">
-              Selected <span className="text-accent italic">Works.</span>
+              Selected <span className="text-accent italic">Projects.</span>
             </h2>
             <p className="text-lg text-foreground/60 leading-relaxed">
-              We focus on building deep, high-fidelity applications that push the boundaries of conventional web and mobile design.
+              We focus on building reliable, high-quality applications that solve real-world problems and help your business grow.
             </p>
           </div>
           <Link href="https://github.com/Rythamo8055" className="text-sm font-bold uppercase tracking-widest text-accent hover:underline flex items-center gap-2 mb-4">
